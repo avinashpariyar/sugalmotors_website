@@ -1,0 +1,522 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  important;
+    font-size: 18px;
+
+}
+
+.container {
+    width: 100%;
+    height: 3905px;
+    background: rgb(245, 243, 243);
+
+}
+
+
+/*  Starting navbar */
+header {
+    width: auto;
+    height: 109px;
+    background-color: #CFCED0;
+    box-shadow: 0 2px 5px rgba(42, 40, 40, 0.2);
+
+
+}
+
+.navbar {
+    width: auto;
+    height: 109px;
+    background-color: #CFCED0;
+    margin-left: 109px;
+    margin-right: 109px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+
+.logo {
+    width: auto;
+    height: 110px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(246, 4, 4, 0.2);
+
+
+
+}
+
+
+.navbar ul {
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 60px;
+
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: #ED1C24;
+}
+
+
+.navbar ul li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #ED1C24;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+
+
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+
+
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    outline: 0;
+    border-radius: 6px;
+    background: #ED1C24;
+    border: #ED1C24 2px solid;
+    font-weight: 500px;
+    cursor: pointer;
+    display: inline-block;
+
+    transition: all 0.3s ease;
+
+    box-shadow: 0 3px 6px rgba(8, 8, 8, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+
+}
+
+.btn:hover {
+    background: white;
+    box-shadow: 0 3px 6px rgba(8, 8, 8, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.btn a:hover {
+    color: #ED1C24;
+}
+
+
+/* ending navbar */
+
+
+/* start main contain  */
+main {
+    height: 3290px;
+    width: 100%;
+
+}
+
+
+.navunder {
+    margin-left: 294px;
+    margin-right: 294px;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.textmulti {
+    color: #ED1C24;
+
+}
+
+
+
+.pikup {
+    height: 550px;
+    width: 990px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 260px;
+    margin-right: 260px;
+    display: inline-block;
+
+}
+
+.appiontment {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-right: 305px;
+    margin-left: 305px;
+}
+
+.appiontment p {
+    font-size: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.appiont {
+    color: #ED1C24;
+    text-decoration: underline;
+    text-decoration-color: #ED1C24;
+}
+
+/* .btn1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ED1C24;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid;
+    height: 70px;
+    width: 340px;
+    font-size: 22px;
+    box-shadow: 0 4px 8px rgba(3, 3, 3, 0.2);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.btn1:hover {
+    background: #ED1C24;
+    color: white;
+    text-decoration: none;
+
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: #ED1C24;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 8px;
+
+
+}
+.btn1 a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.btn1 i {
+    font-size: 35px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(230, 3, 3, 0.2);
+    margin-top: 10px;
+
+
+}
+
+.btn1 i:hover {
+    color: white;
+
+} */
+
+.appiontment button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    border: 2px;
+    outline: none;
+    padding: 8px 17px;
+    border-radius: 10px;
+    background-color: #ED1C24;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(3, 3, 3, 0.2);
+
+
+
+
+
+    transition: all 0.4s ease;
+
+}
+
+.appiontment button:hover {
+    background: white;
+    color: #ED1C24;
+    border: 2px solid;
+    border-color: #ED1C24;
+    box-shadow: 0 4px 8px rgba(3, 3, 3, 0.2);
+
+
+}
+
+.appiontment button i {
+    font-size: 40px;
+    text-shadow: 0 4px 8px rgba(3, 3, 3, 0.2);
+}
+
+
+
+
+
+.image-in {
+    width: 100%;
+    height: 933px;
+    margin-top: 70px;
+    background-image: url('/image/sugalmechanic.png');
+    background-size: cover;
+    color: white;
+    box-shadow: 0 5px 10px rgba(105, 104, 104, 0.2);
+
+
+}
+
+
+.content {
+    background: #ED1C24;
+    margin-left: 109px;
+    margin-right: 825px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #ED1C24;
+    padding-top: 10px;
+
+
+
+
+}
+
+.content p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+
+
+
+/* ending main contain  */
+
+
+
+
+
+
+
+/* start footer */
+
+footer {
+    background-color: #ED1C24;
+    width: 100%;
+    height: 505px;
+}
+
+.box1 {
+    height: 380px;
+    width: auto;
+    background: blue;
+   
+
+   margin-left: 109px;
+    margin-right: 109px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.box1 .rightbox{
+     background: purple;
+     height: 380px;
+     width: 43%;
+     
+}
+
+.rightbox .largelogo{
+    width: 549px;
+    height: 250px;
+    
+}
+
+.rightbox .social{
+    background: grey;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.rightbox .social h4{
+    color: white;
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    
+}
+
+.social{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ .social a{
+    height: 45px;
+    width: 45px ; 
+    background-color:  #f5f6fa;
+
+    margin: 10px; 
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 1px 2px 1px 1px #ED1C24;
+    line-height: 55px;
+    cursor: pointer;
+    border-color: #ED1C24;
+
+    position: relative;
+    overflow: hidden;
+     text-decoration: none;
+    
+    
+
+
+
+}
+
+.fa-envelope{
+    color: #AC2F20;
+
+}
+
+.fa-instagram{
+    color: #e84393;
+}
+
+.fa-facebook{
+    color: #316FF6;
+}
+
+.fa-linkedin{
+    color: #0A66C2;
+}
+
+.fa-twitter{
+    color:#1DA1F2;
+}
+
+a i{
+    transition: all 0.4s linear;
+}
+
+a:hover .fa{
+    transform: scale(1.1);
+    color: #ED1C24;
+}
+a:hover .fa-envelope{
+    color: white;
+}
+
+a::before{
+    content: '';
+    width: 120%; 
+    height: 120%;
+    position: absolute;
+    top: 90%; 
+    left: -50%;
+    
+}
+
+a:hover::before{
+    animation: socialicons 1.2s 1;
+
+}
+@keyframes socialicons{
+  
+   0% {top: 90%; left: -50%;}
+   50%{ top: -60%; left: -10%; }
+   100% { top: -10%; left: -10%;}
+    
+}
+/* ending social icon */
+
+
+.box1 .leftbox{
+    background: yellow;
+    height: 380px;
+    width: 55%;
+}
+
+
+
+
+
+
+
+.box2 {
+    height: 130px;
+    width: auto;
+    background: #ED1C24;
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+.box2 .lastlogo{
+    width: 15%;
+    height: 130px;
+    
+
+}
+.box2 .lastlogo .a-logo {
+    width: auto;
+    height: 123px;
+    
+
+}
+
+.box2 .footertext{
+    width: 85%;
+    height: 130px;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+     
+
+
+    font-family:  important;
+
+
+
+}
+
+
+
+/* ending footer */
