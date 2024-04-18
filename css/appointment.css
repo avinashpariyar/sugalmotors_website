@@ -1,0 +1,643 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+
+.container {
+    width: 100%;
+    height: 3200px;
+    background: rgb(245, 243, 243);
+
+}
+
+
+/*  Starting navbar */
+header {
+    width: auto;
+    height: 109px;
+    background-color: #CFCED0;
+    box-shadow: 0 2px 5px rgba(42, 40, 40, 0.2);
+
+
+}
+
+.navbar {
+    width: auto;
+    height: 109px;
+    background-color: #CFCED0;
+    margin-left: 109px;
+    margin-right: 109px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+
+.logo {
+    width: auto;
+    height: 110px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(246, 4, 4, 0.2);
+
+
+
+}
+
+
+.navbar ul {
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 60px;
+
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: #ED1C24;
+}
+
+
+.navbar ul li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #ED1C24;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+
+
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+
+
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    outline: 0;
+    border-radius: 6px;
+    background: #ED1C24;
+    border: #ED1C24 2px solid;
+    font-weight: 500px;
+    cursor: pointer;
+    display: inline-block;
+
+    transition: all 0.3s ease;
+
+    box-shadow: 0 3px 6px rgba(8, 8, 8, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+
+}
+
+.btn:hover {
+    background: white;
+    box-shadow: 0 3px 6px rgba(8, 8, 8, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    color: red;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.btn a:hover {
+    color: #ED1C24;
+}
+
+
+/* ending navbar */
+
+
+
+
+
+
+
+
+
+
+
+/* starting main  */
+
+
+h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+}
+
+main h1 a{
+    text-decoration: none;
+    color: #ED1C24;
+}
+
+main h1 .underline{
+    text-decoration: #ED1C24 underline;
+}
+main p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+main  .p-red{
+    color: #ED1C24;
+    
+}
+main .first{
+    
+    height: 60px;
+    width: 700px;
+    margin-left: 430px;
+    display: block;
+    
+}
+
+
+main .box1{
+
+    width: 100%px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+}
+ 
+main .box1 .map{
+    width: 650px;
+    height: 400px;
+
+
+}
+
+
+main .box1 .appointment-form{
+    background-color: white;
+    width: 550px;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    justify-content: center;
+}
+
+main .box1 .info{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: none;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+main .box1 .info input{
+    width: 38%;
+    background-color: #D9D9D9;
+    margin-bottom: 30px;
+    padding: 17px 50px 17px 10px;
+    border: none;
+    font-size: 15px;
+    color: black;
+    border-radius: 4px;
+}
+main .box1 button{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    border-radius: 15px;
+    height: 50px;
+    
+}
+main .box1 button:hover{
+    cursor: pointer;
+    background: #ED1C24;
+    color: white;
+}
+
+
+
+
+main .our-team{
+    
+    width: 1300px;
+    height: 550px;
+    margin-top: 150px;
+    margin-left: 109px;
+    
+    
+
+    
+   
+    
+}
+
+
+/* main .our-team h1{
+
+   
+   
+} */
+
+
+
+main .our-team  h2{
+    margin-left: 50px;
+    
+   height: 50px;
+   width: 100%;
+   
+  
+
+}
+
+
+ .our-team .image-first{
+   
+    width: 310px;
+    height: 440px;
+    float: left;
+    margin-left: 250px;
+    
+    
+} 
+
+.our-team img{
+    height: 440px;
+    width: 310px;
+
+
+}
+
+.our-team .text-first{
+   
+    width: 350px;
+    height: 350px;
+    margin-left: 650px;
+    text-align: center;
+}
+
+.our-team .text-first h3{
+    margin-bottom: 5px;
+}
+
+
+.our-team .text-first p{
+    font-size: 17px;
+    
+    text-align: justify;
+  text-justify: inter-word
+  
+}
+
+
+
+
+
+
+main .our-team1{
+    
+    width: 1300px;
+    height: auto;
+   margin-top: 100px;
+    margin-left: 109px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px ;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+}
+
+
+
+.our-team1 .box{
+    
+    width: 24%;
+  height: 290px;
+}
+
+main .our-team1 .box h3{
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+
+main .our-team1 .box p{
+    font-size: 17px;
+     
+    text-align: justify;
+  text-justify: inter-word;
+
+  margin-top: 15px;
+}
+
+main .our-team1 .box img{
+   
+    width: auto;
+    height: 300px;
+    
+}
+
+main h2{
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+main .video { 
+     
+    
+    margin-top: 10px;
+    margin-left: 500px;
+    height: 350px;
+    width: 550px;
+    
+    
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+
+
+
+
+} 
+
+
+
+/* ending main */
+
+
+
+
+
+
+/* start footer */
+
+footer {
+    top: 1400px;
+    margin-top: 1400px;
+
+    margin-top: 100px;
+    background: #ED1C24;
+    width: 100%;
+    height: 400px;
+}
+
+.box1 {
+    height: 380px;
+    width: auto;
+
+
+
+    margin-left: 109px;
+    margin-right: 109px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.box1 .rightbox {
+
+    height: 380px;
+    width: 43%;
+
+}
+
+.rightbox .largelogo {
+    width: 549px;
+    height: 250px;
+
+}
+
+.rightbox .social {
+    width: auto;
+    height: 125px;
+
+
+    align-items: center;
+
+
+}
+
+.rightbox .social h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+
+}
+
+.social {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.social a {
+    height: 45px;
+    width: 45px;
+    background-color: #f5f6fa;
+
+    margin: 10px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px 1px #ef7c80;
+    line-height: 55px;
+    cursor: pointer;
+    border-color: #ED1C24;
+
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+
+
+
+
+
+}
+
+.fa-envelope {
+    color: red;
+
+}
+
+.fa-instagram {
+    color: #e84393;
+}
+
+.fa-facebook {
+    color: #316FF6;
+}
+
+.fa-linkedin {
+    color: #0A66C2;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+a i {
+    transition: all 0.4s linear;
+
+}
+
+a:hover .fa {
+    transform: scale(1.1);
+    color: #ED1C24;
+}
+
+a:hover .fa-envelope {
+    color: white;
+    background: rgb(239, 80, 80);
+}
+
+a::before {
+    content: '';
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    top: 90%;
+    left: -50%;
+
+}
+
+a:hover::before {
+    animation: socialicons 1.2s 1;
+
+}
+
+
+/* ending social icon */
+
+
+.box1 .leftbox {
+
+    height: 380px;
+    width: 55%;
+}
+
+
+
+.box2 {
+    height: 124px;
+    width: 100%;
+    background: #ED1C24;
+    display: flex;
+    justify-content: space-between;
+    top: 100px;
+
+
+}
+
+.box2 .lastlogo {
+    width: 15%;
+    height: 100px;
+
+
+}
+
+.box2 .lastlogo .a-logo {
+    width: auto;
+    height: 123px;
+
+
+}
+
+.box2 .footertext {
+    width: 85%;
+    height: 130px;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+
+
+
+    font-family: important;
+
+
+
+}
+
+
+.box1 .leftbox {
+
+    width: 60%;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 .leftbox .text {
+
+    width: 50%;
+    height: 380px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+
+}
+
+.box1 .leftbox .text1 {
+
+    width: 50%;
+    height: 380px;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+    align-items: center;
+
+}
+
+
+/* ending footer */

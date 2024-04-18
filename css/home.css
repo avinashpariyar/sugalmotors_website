@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  important;
+    font-family: important;
     font-size: 18px;
 
 }
@@ -117,6 +117,7 @@ header {
 .btn:hover {
     background: white;
     box-shadow: 0 3px 6px rgba(8, 8, 8, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    color: red;
 
 }
 
@@ -133,6 +134,11 @@ header {
 
 
 /* ending navbar */
+
+
+
+
+
 
 
 /* start main contain  */
@@ -278,43 +284,73 @@ main {
 
 
 
-.image-in {
-    width: 100%;
-    height: 933px;
-    margin-top: 70px;
-    background-image: url('/image/sugalmechanic.png');
-    background-size: cover;
-    color: white;
-    box-shadow: 0 5px 10px rgba(105, 104, 104, 0.2);
-
-
-}
-
-
-.content {
-    background: #ED1C24;
-    margin-left: 109px;
-    margin-right: 825px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
-    text-decoration-color: #ED1C24;
-    padding-top: 10px;
-
-
-
-
-}
-
-.content p {
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-}
-
 
 
 
 /* ending main contain  */
+
+.secound-image {
+    width: 100%;
+    height: 700px;
+    background: url(/image/sugalmechanic.png);
+    background-size: cover;
+    margin-top: 100px;
+
+  }
+
+
+  
+
+  .secound-image .main-box{
+    width: 100%;
+    height: 700px;
+    background: red;
+    margin-left: 109px;
+    margin-right: 109px;
+  }
+
+
+  
+/* leftbox starting */
+  .secound-image .main-box .left-box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: yellow;
+  }
+
+
+  .secound-image .main-box .left-box .box-top{
+    width: 100%;
+    height: 50%;
+    background: green
+  }
+
+
+  /* left box ending */
+
+
+
+
+
+  .secound-image .main-box .right-box{
+    width: 40%;
+    height:100% ;
+    float: right;
+    background: purple;
+  }
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 
 
@@ -323,199 +359,6 @@ main {
 
 
 /* start footer */
-
-footer {
-    background-color: #ED1C24;
-    width: 100%;
-    height: 505px;
-}
-
-.box1 {
-    height: 380px;
-    width: auto;
-    background: blue;
-   
-
-   margin-left: 109px;
-    margin-right: 109px;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-}
-
-
-.box1 .rightbox{
-     background: purple;
-     height: 380px;
-     width: 43%;
-     
-}
-
-.rightbox .largelogo{
-    width: 549px;
-    height: 250px;
-    
-}
-
-.rightbox .social{
-    background: grey;
-    width: auto;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.rightbox .social h4{
-    color: white;
-    font-family:  Arial, Helvetica, sans-serif;
-    text-align: center;
-
-    
-}
-
-.social{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
- .social a{
-    height: 45px;
-    width: 45px ; 
-    background-color:  #f5f6fa;
-
-    margin: 10px; 
-    text-align: center;
-    border-radius: 50px;
-    box-shadow: 1px 2px 1px 1px #ED1C24;
-    line-height: 55px;
-    cursor: pointer;
-    border-color: #ED1C24;
-
-    position: relative;
-    overflow: hidden;
-     text-decoration: none;
-    
-    
-
-
-
-}
-
-.fa-envelope{
-    color: #AC2F20;
-
-}
-
-.fa-instagram{
-    color: #e84393;
-}
-
-.fa-facebook{
-    color: #316FF6;
-}
-
-.fa-linkedin{
-    color: #0A66C2;
-}
-
-.fa-twitter{
-    color:#1DA1F2;
-}
-
-a i{
-    transition: all 0.4s linear;
-}
-
-a:hover .fa{
-    transform: scale(1.1);
-    color: #ED1C24;
-}
-a:hover .fa-envelope{
-    color: white;
-}
-
-a::before{
-    content: '';
-    width: 120%; 
-    height: 120%;
-    position: absolute;
-    top: 90%; 
-    left: -50%;
-    
-}
-
-a:hover::before{
-    animation: socialicons 1.2s 1;
-
-}
-@keyframes socialicons{
-  
-   0% {top: 90%; left: -50%;}
-   50%{ top: -60%; left: -10%; }
-   100% { top: -10%; left: -10%;}
-    
-}
-/* ending social icon */
-
-
-.box1 .leftbox{
-    background: yellow;
-    height: 380px;
-    width: 55%;
-}
-
-
-
-
-
-
-
-.box2 {
-    height: 130px;
-    width: auto;
-    background: #ED1C24;
-    display: flex;
-    justify-content: space-between;
-
-
-
-
-}
-.box2 .lastlogo{
-    width: 15%;
-    height: 130px;
-    
-
-}
-.box2 .lastlogo .a-logo {
-    width: auto;
-    height: 123px;
-    
-
-}
-
-.box2 .footertext{
-    width: 85%;
-    height: 130px;
-    color: white;
-    font-size: 18px;
-    margin: auto;
-    align-items: center;
-    display: flex;
-     
-
-
-    font-family:  important;
-
-
-
-}
 
 
 
